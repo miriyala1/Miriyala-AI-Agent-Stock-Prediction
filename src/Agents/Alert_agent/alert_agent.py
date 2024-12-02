@@ -52,3 +52,4 @@ class AlertAgent:
         except Exception as e:
             logging.error(f"Error in analyze_stock_changes: {e}")
             raise e
+        
